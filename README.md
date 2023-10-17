@@ -93,7 +93,7 @@ cabal run HaskellTaskManager -- --encryption-key="Encryption Key" --api-mode
     - `GET` `localhost:8080/todo`: To list todo Tasks.
     - `GET` `localhost:8080/complete`: To mark a task as completed.
     - `GET` `localhost:8080/remove`: To remove a List.
-    - `GET` `localhost:8080/add`: To add a Task.
+    - `POST` `localhost:8080/add`: To add a Task.
 
 - Example :
     ```
